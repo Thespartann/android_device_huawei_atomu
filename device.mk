@@ -42,3 +42,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.version.huawei=8.0.0 \
     ro.build.version.release=$(PLATFORM_VERSION) \
     ro.build.version.sdk=$(PLATFORM_SDK_VERSION)
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
