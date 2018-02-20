@@ -22,6 +22,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.msm8917.rc
+
 # Display
 PRODUCT_PACKAGES += \
     libion
