@@ -25,3 +25,9 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+
+# Properties
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.version.all_codenames=$(PLATFORM_VERSION_ALL_CODENAMES) \
+    ro.build.version.codename=$(PLATFORM_VERSION_CODENAME) \
+    ro.build.version.sdk=$(PLATFORM_SDK_VERSION)
