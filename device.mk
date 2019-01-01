@@ -43,6 +43,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.version.release=$(PLATFORM_VERSION) \
     ro.build.version.sdk=$(PLATFORM_SDK_VERSION)
 
+# Propretary
+include device/huawei/atomu/propretary/charger/charger.mk
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
