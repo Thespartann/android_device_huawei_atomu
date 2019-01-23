@@ -18,5 +18,8 @@ include build/make/target/board/generic_arm64_a/BoardConfig.mk
 
 DEVICE_PATH := device/huawei/atomu
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2751463424
+
 # Properties
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
