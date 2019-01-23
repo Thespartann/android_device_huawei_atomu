@@ -22,6 +22,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     libion
 
+# HIDL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
