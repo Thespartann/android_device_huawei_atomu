@@ -18,6 +18,9 @@ include build/make/target/board/generic_arm64_a/BoardConfig.mk
 
 DEVICE_PATH := device/huawei/atomu
 
+# Kernel
+TARGET_NO_KERNEL := true
+
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2751463424
 
