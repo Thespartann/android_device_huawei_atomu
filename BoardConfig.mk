@@ -18,6 +18,10 @@ include build/make/target/board/generic_arm64_a/BoardConfig.mk
 
 DEVICE_PATH := device/huawei/atomu
 
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := atomu,ATU,ATU-L11,ATU-L21,ATU-L22,ATU-L23,ATU-L31,ATU-L42,YGN-AL00,YGN-L21,YGN-L22,YGN-L23,YGN-L41,YGN-L42,YGN-L51,YGN-L61,YGN-TL10,
+
 # Platform
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
